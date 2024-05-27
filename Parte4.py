@@ -28,6 +28,6 @@ def process_class(ruta):
         writer.writeheader()
         for linea in alumnado:
             writer.writerow(linea)
-    print (alumnado)
+
     return
 process_class('class.csv')
